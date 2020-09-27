@@ -2,7 +2,7 @@ class Hangman
 
     def initialize
         @word = words.sample
-        @lives = 7
+        @lives = 6
         @word_teaser = ""
         
         @word.first.size.times do
